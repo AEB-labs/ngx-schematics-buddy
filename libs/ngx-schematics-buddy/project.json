@@ -1,0 +1,32 @@
+{
+  "name": "ngx-schematics-buddy",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/ngx-schematics-buddy/src",
+  "projectType": "library",
+  "release": {
+    "version": {
+      "generatorOptions": {
+        "packageRoot": "dist/{projectRoot}",
+        "currentVersionResolver": "git-tag"
+      }
+    }
+  },
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/ngx-schematics-buddy",
+        "main": "libs/ngx-schematics-buddy/src/index.ts",
+        "tsConfig": "libs/ngx-schematics-buddy/tsconfig.lib.json",
+        "assets": ["libs/ngx-schematics-buddy/*.md"]
+      }
+    },
+    "nx-release-publish": {
+      "options": {
+        "packageRoot": "dist/{projectRoot}"
+      }
+    }
+  }
+}

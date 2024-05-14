@@ -1,0 +1,113 @@
+{
+  "$schema": "../../../../../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "add-attribute-test-migration": {
+      "description": ".",
+      "factory": "./add-attribute-test-migration"
+    },
+    "rename-attribute-test-migration": {
+      "description": ".",
+      "factory": "./rename-attribute-test-migration"
+    },
+    "copy-attribute-test-migration": {
+      "description": ".",
+      "factory": "./copy-attribute-test-migration"
+    },
+    "template-migration-conditions-test-migration": {
+      "description": ".",
+      "factory": "./template-migration-conditions-test-migration"
+    },
+    "rename-element-test-migration": {
+      "description": ".",
+      "factory": "./rename-element-test-migration"
+    },
+    "remove-attribute-test-migration": {
+      "description": ".",
+      "factory": "./remove-attribute-test-migration"
+    },
+    "move-to-inner-html-test-migration": {
+      "description": ".",
+      "factory": "./move-to-inner-html-test-migration"
+    },
+    "move-inner-html-to-attribute-test-migration": {
+      "description": ".",
+      "factory": "./move-inner-html-to-attribute-test-migration"
+    },
+    "add-closing-tag-test-migration": {
+      "description": ".",
+      "factory": "./add-closing-tag-test-migration"
+    },
+    "move-all-attributes-to-parent-test-migration": {
+      "description": ".",
+      "factory": "./move-all-attributes-to-parent-test-migration"
+    },
+    "move-child-element-after-parent-migration": {
+      "description": ".",
+      "factory": "./move-child-element-after-parent-migration"
+    },
+    "move-child-element-before-parent-migration": {
+      "description": ".",
+      "factory": "./move-child-element-before-parent-migration"
+    },
+    "surround-inner-html-test-migration": {
+      "description": ".",
+      "factory": "./surround-inner-html-test-migration"
+    },
+    "negate-attribute-test-migration": {
+      "description": ".",
+      "factory": "./negate-attribute-test-migration"
+    },
+    "add-pipe-to-attribute-test-migration": {
+      "description": ".",
+      "factory": "./add-pipe-to-attribute-test-migration"
+    },
+    "remove-element-test-migration": {
+      "description": ".",
+      "factory": "./remove-element-test-migration"
+    },
+    "add-class-test-migration": {
+      "description": ".",
+      "factory": "./add-class-test-migration"
+    },
+    "rename-class-test-migration": {
+      "description": ".",
+      "factory": "./rename-class-test-migration"
+    },
+    "move-attributes-to-parent-test-migration": {
+      "description": ".",
+      "factory": "./move-attributes-to-parent-test-migration"
+    },
+    "change-attribute-value-test-migration": {
+      "description": ".",
+      "factory": "./change-attribute-value-test-migration"
+    },
+    "move-attributes-to-child-test-migration": {
+      "description": ".",
+      "factory": "./move-attributes-to-child-test-migration"
+    },
+    "replace-strings-test-migration": {
+      "description": ".",
+      "factory": "./replace-strings-test-migration"
+    },
+    "add-migration-comment-test-migration": {
+      "description": ".",
+      "factory": "./add-migration-comment-test-migration"
+    },
+    "wrap-all-direct-children-in-tag-test-migration": {
+      "description": ".",
+      "factory": "./wrap-all-direct-children-in-tag-test-migration"
+    },
+    "remove-element-tag-test-migration": {
+      "description": ".",
+      "factory": "./remove-element-tag-test-migration"
+    },
+    "move-element-into-sibling-test-migration": {
+      "description": ".",
+      "factory": "./move-element-into-sibling-test-migration"
+    },
+    "rename-pipe-test-migration": {
+      "description": ".",
+      "factory": "./rename-pipe-test-migration"
+    }
+  }
+}
